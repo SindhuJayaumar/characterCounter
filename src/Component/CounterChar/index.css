@@ -1,0 +1,77 @@
+.bg-container {
+  background-color: #ffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 10px;
+}
+.sub-card {
+  background-color: #0f172a;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+}
+.yellow-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 550px;
+  height: 420px;
+  background-color: #ffbf1f;
+  padding: 10px;
+  margin-right: 20px;
+}
+.boss-character {
+  background-color: #ffc533;
+  height: 100px;
+}
+.heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+}
+.img {
+  width: 450px;
+}
+.black-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 570px;
+  height: 420px;
+  background-color: #0f172a;
+  padding: 10px;
+  margin-right: 20px;
+}
+.character-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+}
+.char-heading {
+  color: #ffc533;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.input {
+  height: 30px;
+  width: 200px;
+}
+.btn {
+  margin-left: 15px;
+  background-color: #ffbf1f;
+  color: #0f172a;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
